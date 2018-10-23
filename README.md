@@ -13,6 +13,12 @@ __Credentials will be posted here soon__
 
 Please use this link to download the VM Image. 
 
+https://drive.google.com/open?id=1V6ga9Ufzu20mD3_1K8iOdbGxIJl8BC5R
+
+You can import following these steps:
+
+
+
 # Timetable
 
 ## [1 hour] What is DBI? What is it useful for? 
