@@ -17,9 +17,9 @@ https://drive.google.com/open?id=1V6ga9Ufzu20mD3_1K8iOdbGxIJl8BC5R
 
 You can import following these steps:
 
-![Import appliance](screenshots/vbox01)
-![Select correct file.](screenshots/vbox02)
-![Confirm settings](screenshots/vbox03)
+![Import appliance](https://github.com/ineedblood/CB_TRAINING_DBI/raw/master/screenshots/vbox01.png)
+![Select correct file.](https://github.com/ineedblood/CB_TRAINING_DBI/raw/master/screenshots/vbox02.png)
+![Confirm settings](https://github.com/ineedblood/CB_TRAINING_DBI/raw/master/screenshots/vbox03.png)
 
 # Timetable
 
