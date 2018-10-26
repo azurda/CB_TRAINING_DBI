@@ -1,5 +1,6 @@
 from __future__ import print_function
 import frida
+import json
 from frida.application import Reactor
 import sys
 import threading
@@ -64,7 +65,7 @@ class Analyzer(object):
     self._reactor.schedule(self._stop_if_idle, delay=0.5)
 
   def _on_message(self, pid, message):
-    print('message: PID={}, payload={}'.format(pid, message['payload']))
+    print('message: PID={}, payload={}'.format(pid, json.dumps(message['payload'])))
 
 
 app = Analyzer(sys.argv[1:])
