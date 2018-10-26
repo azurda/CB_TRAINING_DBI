@@ -1,0 +1,18 @@
+Firstly we are going to introduce FRIDA using practical samples.
+
+We have a function that basically just loops through an infinite loop and prints 
+the given argument. 
+
+This serves as an example of how we can use FRIDA at a basic level.
+
+We use python as a means of interacting with frida, however it's possible to use different
+language bindings such as java, swift...
+
+We also use javascript in order to access the FRIDA features that we have seen
+in the API. 
+
+We will them, always have two parts a JS script and bindings to intereact with frida runtime.
+
+
+In this script, we use the function pointer which is known, and then we try
+to read the first argument.
