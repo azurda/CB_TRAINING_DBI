@@ -5,6 +5,23 @@ function log_instr(msg) {
   });
 }
 
+function resolve_hkey(hkey) {
+  if (hkey == "0x80000001" || hkey == "0xffffffff80000001") {
+    return "HKEY_CURRENT_USER";
+  } else if (hkey == "0x80000002" || hkey == "0xffffffff80000002") {
+    return "HKEY_LOCAL_MACHINE";
+  } else if (hkey == "0x80000003" || hkey == "0xffffffff80000003") {
+    return "HKEY_USERS";
+  } else if (hkey == "0x80000000" || hkey == "0xffffffff80000000") {
+    return "HKEY_CLASSES_ROOT";
+  } else if (hkey == "0x80000005" || hkey == "0xffffffff80000005") {
+    return "HKEY_CURRENT_CONFIG";
+  } else {
+    return hkey;
+  }
+}
+
+
 function createHook(func_obj, interceptor_body) {
   if(func_obj == null)
     return;

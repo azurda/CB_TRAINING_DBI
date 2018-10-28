@@ -65,7 +65,10 @@ class Analyzer(object):
     self._reactor.schedule(self._stop_if_idle, delay=0.5)
 
   def _on_message(self, pid, message):
-    print('message: PID={}, payload={}'.format(pid, json.dumps(message['payload'])))
+    try:
+      print('message: PID={}, payload={}'.format(pid, json.dumps(message['payload'])))
+    except Exception as e:
+      print(message)
 
 
 app = Analyzer(sys.argv[1:])

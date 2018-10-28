@@ -9,10 +9,39 @@
 
 __Credentials will be posted here soon__
 
+## Server 1
+
+IP: 128.199.108.213
+User: root
+Temporary password: 422174a4387b62d08930d7d3f2
+
+## Server 2
+
+IP: 128.199.108.197
+User: root
+Temporary password: eb643338e9ee4be01bc626d9a3
+
+## Server 3
+IP: 128.199.108.236
+User: root
+Temporary password: 7053ce1fac5375bf1a4eef9a4d
+
+## Server 4
+
+IP: 128.199.108.240
+user: root
+temporary password: 3c4a5c49ec0f2faa00de3f7555
+
+## Server 5
+
+IP: 128.199.108.218
+user: root
+temporary password: bc3be92b0e9a0923c4bafc9e91
+
 # VirtualBox VM Image
 
 Please use this link to download the VM Image. 
-
+(RECOMMENDED) https://drive.google.com/open?id=1VxmlffI24nOeSIaR4TO8rSYXV-b-WHXx
 https://drive.google.com/open?id=1V6ga9Ufzu20mD3_1K8iOdbGxIJl8BC5R
 
 You can import following these steps:
